@@ -413,11 +413,11 @@ pre,
 #scrollUp {
   bottom: 20px;
   right: 20px;
-  height: 38px;
+  height: 64px;
   /* Height of image */
-  width: 38px;
+  width: 64px;
   /* Width of image */
-  background: url(../img/top.png) no-repeat;
+  background: url(../img/to-top.png) no-repeat;
 }
 /* Inverse Color */
 .inverse-color {
@@ -2041,7 +2041,7 @@ section.blog .comments-list .comment .comment-content {
   display: block;
 }
 .mso-icon-seven:hover .hi-icon-effect-9b .hi-icon {
-  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
 }
 .mso-icon-seven:hover .hi-icon-effect-9b .hi-icon:after {
   -webkit-transform: scale(0.85);
