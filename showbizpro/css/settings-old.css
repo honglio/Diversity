@@ -1,0 +1,856 @@
+/******************************
+	-	SHOWBIZ PRO STYLES	-
+
+
+	Created By ThemePunch
+	www.themepunch.com
+
+	Release Date: 27.02.2013
+********************************/
+
+
+
+/******************************
+	-	THE FONTELLO ICONS	-
+********************************/
+
+		@charset "UTF-8";
+
+		@font-face {
+		  font-family: 'showbiz-fontello';
+		  src: url("fontello/fontello.eot");
+		  src: url("fontello/fontello.eot?#iefix") format('embedded-opentype'), url("fontello/fontello.woff") format('woff'), url("fontello/fontello.ttf") format('truetype'), url("fontello/fontello.svg#fontello") format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+		}
+
+
+
+	[class^="sb-icon-"]:before,
+	[class*="sb-icon-"]:before {
+	  font-family: 'showbiz-fontello';
+	  font-style: normal;
+	  font-weight: normal;
+	  speak: none;
+	  display: inline-block;
+	  text-decoration: inherit;
+	  width: 1em;
+	  text-align: center;
+	/* fix buttons height, for twitter bootstrap */
+	  line-height: 1em;
+	/* Animation center compensation - magrins should be symmetric */
+	/* remove if not needed */
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+	}
+
+
+
+		.sb-icon-plus:before { content: '\e800'; } /* '?' */
+		.sb-icon-minus:before { content: '\e801'; } /* '?' */
+		.sb-icon-pause:before { content: '\e802'; } /* '?' */
+		.sb-icon-stop:before { content: '\e803'; } /* '?' */
+		.sb-icon-play:before { content: '\e804'; } /* '?' */
+		.sb-icon-star:before { content: '\e816'; } /* '?' */
+		.sb-icon-star-empty:before { content: '\e817'; } /* '?' */
+		.sb-icon-cancel:before { content: '\e805'; } /* '?' */
+		.sb-icon-doc-landscape:before { content: '\e806'; } /* '?' */
+		.sb-icon-down-open:before { content: '\e807'; } /* '?' */
+		.sb-icon-left-open:before { content: '\e808'; } /* '?' */
+		.sb-icon-right-open:before { content: '\e80b'; } /* '?' */
+		.sb-icon-up-open:before { content: '\e80e'; } /* '?' */
+		.sb-icon-down-open-mini:before { content: '\e811'; } /* '?' */
+		.sb-icon-left-open-mini:before { content: '\e80a'; } /* '?' */
+		.sb-icon-right-open-mini:before { content: '\e80c'; } /* '?' */
+		.sb-icon-up-open-mini:before { content: '\e80f'; } /* '?' */
+		.sb-icon-down-open-big:before { content: '\e812'; } /* '?' */
+		.sb-icon-left-open-big:before { content: '\e809'; } /* '?' */
+		.sb-icon-right-open-big:before { content: '\e80d'; } /* '?' */
+		.sb-icon-up-open-big:before { content: '\e810'; } /* '?' */
+		.sb-icon-mobile:before { content: '\e813'; } /* '?' */
+		.sb-icon-search:before { content: '\e814'; } /* '?' */
+		.sb-icon-link:before { content: '\e815'; } /* '?' */
+
+
+/*******************************************
+	- RATING START  -
+********************************************/
+		.rating-star				{	vertical-align: middle;line-height: 17px;}
+		.sb-rateholder			{	position:relative; display:inline-block; }
+		.sb-rateholder-single	{   position:relative; float:left;}		
+		.sb-icon-star-empty		{	position:absolute;left:0px;top:0px; z-index:1; color:#ddd; }
+		.sb-icon-star			{	position:relative; z-index:2; color:#ffc321;}	
+		
+/**************************************
+	-	BASIC STYLING FOR CONTENTS	-
+***************************************/
+
+
+		.showbiz					{	position:relative;}
+
+
+		.showbiz .divide5			{	width:100%;height:5px;}
+		.showbiz .divide10			{	width:100%;height:10px;}
+		.showbiz .divide15			{	width:100%;height:15px;}
+		.showbiz .divide20			{	width:100%;height:20px;}
+		.showbiz .divide30			{	width:100%;height:30px;}
+
+		.showbiz .p20				{	padding-top:20px;}
+		.showbiz .p30				{	padding-top:30px;}
+		.showbiz .p40				{	padding-top:30px;}
+		.showbiz .p60				{	padding-top:60px;}
+
+		.showbiz .rm5				{	margin-right:5px;}
+		.showbiz .rm10				{	margin-right:10px;}
+		.showbiz .rm15				{	margin-right:15px;}
+		.showbiz .rm20				{	margin-right:20px;}
+
+
+		.showbiz .leftfloat			{	float:left;}
+		.showbiz .rightfloat		{	float:right;}
+		.sbclear					{	clear:both;}
+
+		.showbiz .txt-center		{	text-align: center;}
+		.showbiz .txt-left			{	text-align: left;}
+		.showbiz .txt-right			{	text-align: right;}
+		.showbiz .vert-center		{	vertical-align:middle;height:100%;}
+
+
+		.showbiz-title .greenbg		{	background-color:#366300; padding:2px 10px;}
+		.showbiz-title .redbg		{	background-color:#b2170a; padding:2px 10px;}
+		.showbiz-title .bluebg		{	background-color:#1d628a; padding:2px 10px;}
+		.showbiz-title .blackbg		{	background-color:#000; padding:2px 10px;}
+
+		.showbiz p					{	font-size:13px; line-height:22px; color:#777; font-family: 'Open Sans', sans-serif; position:relative;}
+		.showbiz p.orange			{	color:#ff6c00;}
+		.showbiz p.bigger			{	font-size:17px; line-height:20px;}
+		.showbiz p.bolder			{	font-weight:700;}
+
+		.showbiz-title,
+		.showbiz-title a,
+		.showbiz-title a:visited,
+		.showbiz-title a:hover			{	color:#555; font-family: 'Open Sans', sans-serif; font-size:14px; text-transform:uppercase;  text-decoration: none; font-weight:700;}
+
+		.showbiz-title.large,
+		.showbiz-title.large a,
+		.showbiz-title.large a:visited,
+		.showbiz-title.large a:hover	{	font-size:20px; line-height:25px; font-weight:800;}
+
+		.showbiz-price .number				{	color:#555; font-family: 'Open Sans', sans-serif; font-size:50px; font-weight: 800;}
+		.showbiz-price .currency				{	color:#555; font-family: 'Open Sans', sans-serif; font-size:35px; font-weight: 400;}
+
+		.showbiz-button			{	background:url(../assets/pre.png) repeat-x; height:40px;
+						box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+						-moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+						-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+						width:auto; margin:auto;text-align:center;
+						border-radius:6px;
+						-moz-border-radius:6px;
+						-webkit-border-radius:6px;
+						font-size:14px; color:#555; font-family: 'Open Sans', sans-serif; line-height:42px;font-weight:700;text-shadow:0px 1px #fff;
+						position:relative;
+						cursor:pointer;
+						-webkit-transition: all 0.2s ease-out;
+						-moz-transition: all 0.2s ease-out;
+						-o-transition: all 0.2s ease-out;
+						-ms-transition: all 0.2s ease-out;
+						padding:10px 20px;
+						overflow: hidden;
+						position: relative;
+						border: 1px solid #ccc;
+					}
+
+
+		.showbiz-button:hover	{	background:url(../assets/prehover.png) repeat-x;
+						box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.2);
+						-moz-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.2);
+						-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.2);
+						border: 1px solid #999;
+					}
+
+
+		.sb_one_half 		{ width: 49%;   position:relative;}
+		.sb_one_third 		{ width: 32%;  position:relative;}
+		.sb_two_third 		{ width: 66%; position:relative;}
+		.sb_three_fourth	{ width: 74%;    position:relative;}
+		.sb_four_fifth		{ width: 78%;    position:relative;}
+		.sb_one_fourth 		{ width: 23.5%;   position:relative;}
+		.sb_one_fifth 		{ width: 18.2%; position:relative;}
+		.sb_two_fifth 		{ width: 39%; position:relative;}
+		.sb_three_fifth 	{ width: 58.3%; position:relative;}
+		.sb_one_sixth 		{ width: 13.33%; position:relative;}
+
+		.sb_one_half,
+		.sb_one_third,
+		.sb_two_third,
+		.sb_one_fourth,
+		.sb_one_fifth,
+		.sb_three_fourth,
+		.sb_one_sixth,
+		.sb_four_fifth,
+		.sb_two_fifth,
+		.sb_three_fifth	{ margin-right: 2%; margin-bottom: 0px; float: left; }
+
+		.sb_lastcolumn { margin-right: 0!important; clear: right; }
+
+
+		@media only screen and (min-width: 768px) and (max-width: 979px) {
+				}
+
+		@media only screen and (max-width: 767px) {
+			.sb_one_half,
+			.sb_one_third,
+			.sb_two_third,
+			.sb_one_fourth,
+			.sb_one_fifth,
+			.sb_one_sixth,
+			.sb_two_fifth,
+			.sb_three_fifth		{ width: 100%; margin-bottom:30px;}
+			.sb_lastcolumn			{	margin-bottom:0px;}
+			.sb_mobilecentered		{	text-align:center;}
+		}
+
+		.sb-clear				{	clear:both}
+
+
+
+
+/*********************************************************
+			-	NAVIGATION SETTINGS	-
+	USE STYLE CLASS IN THE SHOWBIZ NAVIGATION CONTAINER
+**********************************************************/
+
+
+		.showbiz-navigation						{	}
+		.showbiz-navigation.center				{	text-align:center;}
+
+
+		.sb-navigation-left,
+		.sb-navigation-right,
+/**/	.sb-navigation-play						{	cursor:pointer;  border-radius: 3px; -moz-border-radius: 3px;-webkit-border-radius: 3px;display:inline-block; padding:1px 3px;
+													-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
+												}
+
+/**/	.sb-navigation-play						{	margin-right:5px;}
+		.sb-navigation-left						{	margin-right:5px;}
+
+		.sb-navigation-left i,
+		.sb-navigation-right i,
+/**/	.sb-navigation-play i					{	 font-size:22px;  color:#fff; }
+
+		.sb-navigation-left.notclickable		{	cursor:default; -moz-opacity:0.3; filter:alpha(opacity=30); opacity:0.3;}
+		.sb-navigation-right.notclickable		{	cursor:default; -moz-opacity:0.3; filter:alpha(opacity=30); opacity:0.3;}
+
+		.sb-hidden								{	display:none;}
+		
+		/*** WHITE NAV BUTTONS ***/
+		.sb-nav-light .sb-navigation-left,
+		.sb-nav-light .sb-navigation-right,
+/**/	.sb-nav-light .sb-navigation-play						{	background:#fff; border:1px solid #d5d5d5; }
+		.sb-nav-light.showbiz-navigation i						{	color:#777;   }
+
+		.sb-nav-light .sb-navigation-left:hover,
+		.sb-nav-light .sb-navigation-right:hover				{	border:1px solid #b5b5b5;}
+
+		.sb-nav-light .sb-navigation-left.notclickable:hover,
+		.sb-nav-light .sb-navigation-right.notclickable:hover	{	border:1px solid #d5d5d5;}
+
+		/*** GREY BUTTONS ***/
+		.sb-nav-grey .sb-navigation-left.notclickable:hover,
+		.sb-nav-grey .sb-navigation-right.notclickable:hover,
+		.sb-nav-grey .sb-navigation-left,
+		.sb-nav-grey .sb-navigation-right,
+/**/	.sb-nav-grey .sb-navigation-play
+																{	background: #919191;
+
+																	background: -moz-linear-gradient(top,  #919191 0%, #6b6b6b 100%); /* FF3.6+ */
+																	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#919191), color-stop(100%,#6b6b6b));
+																	background: -webkit-linear-gradient(top,  #919191 0%,#6b6b6b 100%);
+																	background: -o-linear-gradient(top,  #919191 0%,#6b6b6b 100%);
+																	background: -ms-linear-gradient(top,  #919191 0%,#6b6b6b 100%);
+																	background: linear-gradient(to bottom,  #919191 0%,#6b6b6b 100%);
+																	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#919191', endColorstr='#6b6b6b',GradientType=0 );
+																	border-top:1px solid #919191; border-left:1px solid #969696;  border-right:1px solid #969696; border-bottom:1px solid #6c6c6;
+																}
+		.sb-nav-grey .sb-navigation-left:hover,
+		.sb-nav-grey .sb-navigation-right:hover,
+/**/	.sb-nav-grey .sb-navigation-play:hover
+																{	background: #919191;
+																	background: -moz-linear-gradient(top,  #6b6b6b 0%, #919191 100%); /* FF3.6+ */
+																	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6b6b6b), color-stop(100%,#919191));
+																	background: -webkit-linear-gradient(top, #6b6b6b 0% ,#919191 100%);
+																	background: -o-linear-gradient(top,  #6b6b6b 0% ,#919191 100%);
+																	background: -ms-linear-gradient(top,  #6b6b6b 0% ,#919191 100%);
+																	background: linear-gradient(to bottom,  #6b6b6b 0% ,#919191 100%);
+																	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#919191',GradientType=0 );
+																	 }
+
+
+		/*** DARK GREY BUTTON ***/
+		.sb-nav-dark .sb-navigation-left.notclickable:hover,
+		.sb-nav-dark .sb-navigation-right.notclickable:hover,
+		.sb-nav-dark .sb-navigation-left,
+		.sb-nav-dark .sb-navigation-right,
+/**/	.sb-nav-dark .sb-navigation-play						{	background:#555; border:1px solid #919191; border:1px solid #333;
+																	border-radius: 0px; -moz-border-radius: 0px;-webkit-border-radius: 0px; }
+		.sb-nav-dark .sb-navigation-left:hover,
+		.sb-nav-dark .sb-navigation-right:hover,
+		.sb-nav-dark .sb-navigation-play:hover		{	background:#333}
+
+		/*** RETRO  NAV BUTTON ***/
+		.sb-nav-retro .sb-navigation-left.notclickable:hover,
+		.sb-nav-retro .sb-navigation-right.notclickable:hover,
+		.sb-nav-retro .sb-navigation-left,
+		.sb-nav-retro .sb-navigation-right,
+		.sb-nav-retro .sb-navigation-play						{	background:#fff; color:#777; }
+		
+		.sb-nav-retro .sb-navigation-play						{ margin-top:10px; }
+																 
+		.sb-nav-retro .sb-navigation-left:hover,
+		.sb-nav-retro .sb-navigation-right:hover					{	background:#f1f1f1}
+
+		.sb-nav-retro .sb-navigation-left						{	position:absolute;top:50%;left:-26px;margin-top:-15px; border-radius: 500px 0px 0px 500px; -moz-border-radius: 500px 0px 0px 500px;-webkit-border-radius: 500px 0px 0px 500px;
+																	-webkit-box-shadow: -4px 0px 5px 1px rgba(100,100,100,0.1);
+																	-moz-box-shadow: -4px 0px 5px 1px rgba(100,100,100,0.1);
+																	box-shadow: -4px 0px 5px 1px rgba(100,100,100,0.1);
+																	padding:10px 0px 10px 7px;
+																}
+
+		.sb-nav-retro .sb-navigation-right						{	position:absolute;top:50%;right:-26px;margin-top:-15px; border-radius: 0px 500px 500px 0px; -moz-border-radius: 0px 500px 500px 0px;-webkit-border-radius: 0px 500px 500px 0px;
+																	-webkit-box-shadow: 4px 0px 5px 1px rgba(100,100,100,0.1);
+																	-moz-box-shadow: 4px 0px 5px 1px rgba(100,100,100,0.1);
+																	box-shadow: 4px 0px 5px 1px rgba(100,100,100,0.1);
+																	padding:10px 7px 10px 0px;
+																}
+
+		.sb-retro-skin .showbiz-navigation i 					{	color:#333}
+
+
+		/*** RETRO  NAV BUTTON ***/
+		.sb-nav-dark-retro .sb-navigation-left.notclickable:hover,
+		.sb-nav-dark-retro .sb-navigation-right.notclickable:hover,
+		.sb-nav-dark-retro .sb-navigation-left,
+		.sb-nav-dark-retro .sb-navigation-right,
+		.sb-nav-dark-retro .sb-navigation-play					{	background:#222; color:#777; }
+
+		.sb-nav-dark-retro .sb-navigation-play					{ margin-top:10px;
+																 }
+		.sb-nav-dark-retro .sb-navigation-left:hover,
+		.sb-nav-dark-retro .sb-navigation-right:hover,
+		.sb-nav-dark-retro .sb-navigation-play:hover			{	background:#252525}
+
+		.sb-nav-dark-retro .sb-navigation-left						{	position:absolute;top:50%;left:-26px;margin-top:-15px; border-radius: 500px 0px 0px 500px; -moz-border-radius: 500px 0px 0px 500px;-webkit-border-radius: 500px 0px 0px 500px;
+																		padding:10px 0px 10px 7px;
+																	}
+		.sb-nav-dark-retro .sb-navigation-right						{	position:absolute;top:50%;right:-26px;margin-top:-15px; border-radius: 0px 500px 500px 0px; -moz-border-radius: 0px 500px 500px 0px;-webkit-border-radius: 0px 500px 500px 0px;
+																		padding:10px 7px 10px 0px;;
+																	}
+
+		.sb-retro-dark-skin .showbiz-navigation i 					{	color:#fff}
+
+/*****************************************
+	-	HOVER ICONS AND ANIMATIONS	-
+******************************************/
+
+
+
+		.linkicon, .lupeicon							{	position:absolute; left:50%;top:50%;
+															-webkit-transform: translateZ(10);
+															-webkit-backface-visibility: hidden;
+															-webkit-perspective: 1000;
+															color:#fff; font-size:28px; font-weight:bold; margin-top:-16px; margin-left:-15px;
+														}
+
+		.linkicon.notalone								{	margin-left:8px;}
+		.lupeicon.notalone								{   margin-left:-38px;}
+
+		.showbiz .mediaholder .linkicon,
+		.showbiz .mediaholder .lupeicon					{	 	top:65%;
+																-webkit-transition: all 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+																-moz-transition: all 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+																-o-transition: all 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+																-ms-transition: all 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+																-moz-opacity:0; filter:alpha(opacity=0); opacity:0;
+														}
+		.showbiz li:hover .mediaholder .linkicon,
+		.showbiz li:hover .mediaholder .lupeicon		{   	top:50%; -moz-opacity:1; filter:alpha(opacity=100); opacity:1;}
+
+
+		.showbiz li:hover .mediaholder .lupeicon		{  		transition-delay: 0.1s;
+																-moz-transition-delay: 0.1s; /* Firefox 4 */
+																-webkit-transition-delay: 0.1s; /* Safari and Chrome */
+																-o-transition-delay: 0.1s; /* Opera */
+														}
+
+
+
+/**************************************************
+	-	THE BASIC CONTAINER SETTINGS	-
+	NO NEED TO MODIFICATE ANYTHIN HERE
+
+	ALL DETAIL SETTINGS CAN BE SET VIA THE SKINS
+**************************************************/
+
+
+
+		.showbiz ul, .showbiz li						{	list-style: none; margin:0; padding:0; }
+		.showbiz ul li									{	position:relative; -webkit-transform: translateZ(10);
+																-webkit-backface-visibility: hidden;
+																-webkit-perspective: 1000;
+																margin-right:15px;
+														}
+		.showbiz .overflowholder 						{	overflow: hidden;position: relative;width: 100%; z-index:2}
+
+		.showbiz .overflowholder ul 					{		width:100000px; position: absolute;	top: 0px; left: 0px; }
+
+		.showbiz .overflowholder ul li 					{		float: left !important;
+																-webkit-transition: all 0.25s ease;
+																-moz-transition: all 0.25s ease-in-out;
+																-o-transition: all 0.25s ease-in-out;
+																-ms-transition: all 0.25s ease-in-out;
+																transition: all 0.25s ease-in-out;
+																position:relative;
+														}
+
+
+		.showbiz .mediaholder							{ 	position:relative; box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box; background:transparent;padding:0px; border:none;}
+		.showbiz .mediaholder_innerwrap					{	position:relative; overflow:hidden; width:100%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+		.showbiz .mediaholder img 						{	width:100%; position:relative; margin-bottom:-5px;}
+
+
+		.showbiz .hovercover							{		width:100%;height:100%; position:absolute; top:0px; left:0px; background-color:#52bde9;background-color:rgba(82,189,233,0.85);
+																-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;-ms-transition: all 0.2s ease-out;
+																-moz-opacity:0; filter:alpha(opacity=0); opacity:0;
+																-webkit-transform: translateZ(10);
+																-webkit-backface-visibility: hidden;
+																-webkit-perspective: 1000;
+														}
+
+		.showbiz li:hover .hovercover			  		{		-moz-opacity:0.85; filter:alpha(opacity=85); opacity:0.85;  }
+
+
+
+
+
+
+
+/*************************************************
+	-	THE GREY SKIN EXTRAS   -
+**************************************************/
+
+
+		.sb-grey-skin.showbiz-navigation i						{	text-shadow:0px 1px 0px rgba(0,0,0,0.4); font-size:20px;}
+
+		.sb-grey-skin .mediaholder 								{	background-color:#d5d5d5;border:1px solid #cecece;
+																	border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;
+																	padding:7px;
+																}
+
+		.sb-grey-skin .hovercover								{	background:rgba(0,0,0,0.5);  }
+
+		li.sb-grey-skin:hover .mediaholder img					{	 filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+																	 filter: gray; /* IE6-9 */
+																	-webkit-filter: grayscale(100%);
+																}
+
+
+
+
+
+
+/*************************************************
+	-	THE LIGHT SKIN EXTRAS   -
+**************************************************/
+
+
+		li.sb-light-skin 										{	margin-right:20px;
+																	box-shadow:0px 1px 1px 0px rgba(0,0,0,0.2);-moz-box-shadow:0px 1px 1px 0px rgba(0,0,0,0.2);-webkit-box-shadow:0px 1px 1px 0px rgba(0,0,0,0.2);
+																}
+
+
+		.sb-light-skin .detailholder							{	background-color:#fff; padding:10px 20px 10px;
+																	border-radius:0px 0px 6px 6px;-moz-border-radius:0px 0px 6px 6px;-webkit-border-radius:0px 0px 6px 6px;
+																}
+
+		.sb-light-skin .mediaholder_innerwrap					{
+																	border-radius:6px 6px 0px 0px;-moz-border-radius:6px 6px 0px 0px;-webkit-border-radius:6px 6px 0px 0px;
+																}
+
+		.sb-light-skin .hovercover								{	background:rgba(0,168,255,0.75);
+																	border-radius:6px 6px 0px 0px;
+																	-moz-border-radius:6px 6px 0px 0px;
+																	-webkit-border-radius:6px 6px 0px 0px;
+																}
+
+		.sb-light-skin .reveal_wrapper							{	border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;
+																}
+
+
+
+
+
+
+
+/*************************************************
+	-	THE MEDIA SKIN EXTRAS   -
+**************************************************/
+
+
+
+		/* TITLE AND CONTENT */
+		.sb-media-skin .showbiz-title,
+		.sb-media-skin .showbiz-title a,
+		.sb-media-skin .showbiz-title a:visited,
+		.sb-media-skin .showbiz-title a:hover					{	color:#fff}
+
+		.sb-media-skin .mediaholder 							{	background-color:#fff;border:none;padding:5px;
+																	border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;
+																}
+
+
+
+
+
+/*************************************************
+	-	THE SHOWCASE FULLWIDTH SKIN EXTRAS   -
+**************************************************/
+
+		.showbiz ul li.sb-showcase-skin							{	margin-right:20px; position:relative; background:#fff; padding-top:10px;}
+
+		.sb-showcase-skin .detailholder							{	padding:30px 20px;}
+
+		.sb-showcase-skin .mediaholder img						{	height:135px;width:auto;}
+
+		.sb-showcase-skin .mediaholder_innerwrap				{	text-align: center;  }
+
+
+
+/*************************************************
+	-	THE MODERN FULLWIDTH SKIN EXTRAS   -
+**************************************************/
+
+.showbiz.sb-modern-skin	ul										{	background:#000;}
+.showbiz ul li.sb-modern-skin									{	margin-right:0px; border-right:1px solid #000;}
+
+
+
+.sb-modern-skin .darkhover										{	position:absolute; top:0px; left:0px; width:100%;height:100%;
+																	background:rgba(0,0,0,0);
+																	-webkit-transition: all 0.2s ease-out;
+																	-moz-transition: all 0.2s ease-out;
+																	-o-transition: all 0.2s ease-out;
+																	-ms-transition: all 0.2s ease-out;
+																}
+
+.sb-modern-skin .detailholder									{  position: absolute;
+																	bottom: 0px;
+																	background:#000;
+																	background: rgba(0,0,0,0.65);
+																	padding: 20px;
+																	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+																	overflow: hidden;
+																	width:100%;
+																	-webkit-transition: all 0.2s ease-out;
+																	-moz-transition: all 0.2s ease-out;
+																	-o-transition: all 0.2s ease-out;
+																	-ms-transition: all 0.2s ease-out;
+																}
+
+.sb-modern-skin .showbiz-title									{	font-size:20px; line-height:25px; color:#fff;  font-weight:400;}
+
+.sb-modern-skin .excerpt										{	font-size:13px; line-height:22px; color:#999;   font-weight:400;
+																	overflow: hidden; position: relative;
+																	display:none;
+}
+
+.sb-post-details, .sb-post-details span,
+.sb-post-details a, .sb-post-details a:visited					{	font-size:12px; line-height:22px; color:#999; font-weight:400; font-family: 'Open Sans', sans-serif;}
+
+.sb-readmore, .sb-readmore span,
+.sb-readmore a, .sb-readmore a:visited							{	font-size:12px; line-height:22px; color:#fff; font-family: 'Open Sans', sans-serif; font-weight:500; text-decoration: none;}
+.sb-modern-skin .sb-readmore									{   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+																	  filter: alpha(opacity=0);
+																	  -moz-opacity: 0.0;
+																	  -khtml-opacity: 0.0;
+																	  opacity: 0.0;
+																	  -webkit-transition: all 0.2s ease-out;
+																	  -moz-transition: all 0.2s ease-out;
+																	  -o-transition: all 0.2s ease-out;
+																	  -ms-transition: all 0.2s ease-out;
+																}
+
+
+.showbiz ul li.sb-modern-skin:hover .detailholder				{	background:#000; background:rgba(0,0,0,1);}
+.showbiz ul li.sb-modern-skin:hover .darkhover					{	background:rgba(0,0,0,0.65);}
+
+
+.showbiz ul li.sb-modern-skin:hover .sb-readmore				{   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+																	  filter: alpha(opacity=100);
+																	  -moz-opacity: 1;
+																	  -khtml-opacity: 1;
+																	  opacity: 1;
+																	}
+
+
+/**************************************************
+	-	THE RETRO SKIN EXTRAS -
+***************************************************/
+
+
+
+.sb-retro-skin.showbiz-container								{	max-width:1210px;	min-width:300px;	}
+
+
+.sb-retro-skin .showbiz-title,
+.sb-retro-skin .showbiz-title a,
+.sb-retro-skin .showbiz-title a:visited,
+.sb-retro-skin .showbiz-title a:hover							{	text-decoration: none;
+																	font-weight:400 !important;
+
+															        font-size: 16px;
+															        font-weight: normal;
+															        color: #999;
+															        text-shadow: #fff 1px 1px 1px;
+															        margin: 0px;
+															        width: 100%;
+																    text-decoration: none !important;
+															        text-transform:none !important;
+															    }
+
+.sb-retro-skin .showbiz-description								{
+																	font-family: Arial, sans-serif;
+															        font-size: 12px;
+															        line-height: 20px;
+															        color: #777;
+															        text-shadow: #fff 1px 1px 1px;
+
+
+															    }
+
+.sb-retro-skin .showbiz-button               					{
+			                                                        padding:4px 15px !important;
+			                                                        color:#777 !important;
+			                                                        text-shadow:1px 1px 0px #fff;
+			                                                        font-size:12px; line-height:30px;
+			                                                        margin-top:10px;
+			                                                        white-space: nowrap;
+			                                                         text-decoration: none !important;
+			                                                     }
+
+.sb-retro-skin  .showbiz-navigation i							{	text-shadow:0px 1px 0px rgba(0,0,0,0.4); font-size:20px;}
+
+.sb-retro-skin  .mediaholder 									{	background-color:#fff;
+						                                            border:1px solid #cecece;
+						                                            border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;
+						                                            padding:4px;
+
+						                                        }
+
+.sb-retro-skin .hovercover										{	background:rgba(0,0,0,0.5);  }
+
+.sb-retro-skin li:hover .mediaholder img  						{	 filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+			                                                        filter: gray; /* IE6-9 */
+			                                                        -webkit-filter: grayscale(100%);
+			                                                    }
+
+
+.sb-retro-skin	.linkicon										{
+			                                                        position:absolute; left:50%;top:50%;
+			                                                        -webkit-transform: translateZ(10);
+			                                                        -webkit-backface-visibility: hidden;
+			                                                        -webkit-perspective: 1000;
+			                                                        color:#fff; font-size:42px; font-weight:400 !important;
+
+			                                                        margin-top:-23px; margin-left:-23px;
+			                                                         background:#000; background:rgba(0,0,0,0.6);
+			                                                         border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;
+			                                                        width:46px;height:46px;
+			                                                        vertical-align: middle !important;
+			                                                        text-align: center;
+			                                                     }
+
+
+
+/**************************************************
+	-	THE RETRO DARK SKIN EXTRAS -
+***************************************************/
+
+
+
+.sb-retro-dark-skin.showbiz-container								{	max-width:1210px;	min-width:300px;	}
+
+
+.sb-retro-dark-skin .showbiz-title,
+.sb-retro-dark-skin .showbiz-title a,
+.sb-retro-dark-skin .showbiz-title a:visited,
+.sb-retro-dark-skin .showbiz-title a:hover							{	text-decoration: none;
+																		font-weight:400 !important;
+
+																        font-size: 16px;
+																        font-weight: normal;
+																        color: #ddd !important;
+																        text-shadow: #000 1px 1px 1px;
+																        margin: 0px;
+																        width: 100%;
+																        text-transform:none !important;
+																        text-decoration: none !important;
+																    }
+
+.sb-retro-dark-skin .showbiz-description						{
+																	font-family: Arial, sans-serif;
+															        font-size: 12px;
+															        line-height: 20px;
+															        color: #999;
+															        text-shadow: #000 1px 1px 1px;
+
+
+															    }
+
+.sb-retro-dark-skin .showbiz-button               					{
+			                                                             padding:4px 15px !important;
+				                                                        color: #999;
+																		text-shadow: 1px 1px 0px #000;
+																		background: #333;
+																		border: 1px solid #151515;
+																		text-decoration: none;
+																		font-weight: 400;
+				                                                        white-space: nowrap;
+				                                                        font-size:12px;
+				                                                         text-decoration: none !important;
+			                                                     }
+			                                                     }
+
+.sb-retro-dark-skin  .showbiz-navigation i							{	text-shadow:0px 1px 0px rgba(0,0,0,0.4); font-size:20px;}
+
+.sb-retro-dark-skin  .mediaholder 									{	background-color:#fff;
+							                                            border:1px solid #111;
+							                                            border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;
+							                                            padding:0px;
+
+						                                        }
+
+.sb-retro-dark-skin .hovercover										{	background:rgba(0,0,0,0.5);  }
+
+.sb-retro-dark-skin li:hover .mediaholder img  						{	 filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+			                                                        filter: gray; /* IE6-9 */
+			                                                        -webkit-filter: grayscale(100%);
+			                                                    }
+
+
+.sb-retro-dark-skin	.linkicon										{
+			                                                        position:absolute; left:50%;top:50%;
+			                                                        -webkit-transform: translateZ(10);
+			                                                        -webkit-backface-visibility: hidden;
+			                                                        -webkit-perspective: 1000;
+			                                                        color:#fff; font-size:42px; font-weight:400 !important;
+
+			                                                        margin-top:-23px; margin-left:-23px;
+			                                                         background:#000; background:rgba(0,0,0,0.6);
+			                                                         border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;
+			                                                        width:46px;height:46px;
+			                                                        vertical-align: middle !important;
+			                                                        text-align: center;
+			                                                     }
+
+
+
+
+/******************************************************
+		-	THE REVEAL FUNCTIONS 	-
+*********************************************************/
+
+		.reveal_container											{	position:absolute; width:100%;height:100%; top:0px; left:0px; -webkit-transform: translateZ(10);
+																		-webkit-backface-visibility: hidden;
+																		-webkit-perspective: 1000;
+																		visibility:hidden;
+																	}
+
+		.reveal_container.tofullwidth								{	visibility:visible; z-index:20;}
+		.reveal_container.tofullwidth.sb-removemesoon				{	visibility:visible; z-index:5; background:#ff0000;}
+
+		.showbiz-title.go-to-top									{	position:absolute;top:100%; margin-top:-40px;z-index:5; left:20px;
+																		-webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);-moz-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);-o-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);-ms-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+																		-webkit-transform: translateZ(10);-webkit-backface-visibility: hidden;-webkit-perspective: 1000;
+																	}
+
+
+		.reveal_container .reveal_wrapper							{	position:absolute; background:#fff; background:rgba(255,255,255,0.9);
+																		width:100%; height:100%; top:0px; left:0px; visibility:hidden;
+																		padding:20px 20px 20px;
+																		height:0px;
+																		box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;
+																		overflow:hidden;
+																		-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
+																		-moz-opacity:0; filter:alpha(opacity=0); opacity:0;
+																		-webkit-transform: translateZ(10); -webkit-backface-visibility: hidden; -webkit-perspective: 1000;
+																	}
+
+
+
+		/*** BIG WHITE OPENER- DEFAULT ***/
+		 .reveal_opener												{	width:45px; height:50px; line-height:50px;text-align:center; font-size:22px;color:#888; font-family:Arial; font-weight:700; position:absolute;
+																		right:0px;bottom:0px;background-color:#fff;
+																		border-radius:4px 0px 0px 0px; -moz-border-radius:4px 0px 0px 0px; -webkit-border-radius:4px 0px 0px 0px;
+																		cursor:pointer;
+																		-webkit-transition: opacity 0.2s ease-out;-moz-transition: opacity 0.2s ease-out;-o-transition: opacity 0.2s ease-out;-ms-transition: opacity 0.2s ease-out;
+																		z-index:1;
+																	}
+
+		.reveal_opener.sb-centered									{	left:50%;top:50%;}
+
+
+		/*** SMALL WHITE OPENER ***/
+		.reveal_opener.opener_small_white							{	background:#fff; width:25px;height:27px;line-height:25px;	border-radius:0px 0px 6px 6px;-moz-border-radius:0px 0px 6px 6px;-webkit-border-radius:0px 0px 6px 6px;}
+
+		/*** SMALL GRAY OPENER ***/
+		.reveal_opener.opener_small_grey							{	background:#d5d5d5; width:25px;height:27px;line-height:25px;border-radius: 0px; -moz-border-radius: 0px;-webkit-border-radius: 0px; bottom:0px;right:0px;}
+
+		/*** GREY COLORED OPENER ***/
+		.reveal_opener.opener_big_grey								{	width:29px; height:29px; line-height:29px;color:#888;
+																		background-color:#d5d5d5;font-weight:700;
+																		border-radius: 5px 0px 0px 0px; -moz-border-radius: 5px 0px 0px 0px;-webkit-border-radius: 5px 0px 0px 0px;
+																	}
+		.reveal_opener.revactive.opener_big_grey	 				{	font-size:30px;width:40px;height:35px;line-height:35px;}
+
+		/** REVEAL OPENER PLAY BUTTON **/
+		.reveal_opener.sb-controll-button							{	color:#fff; width:40px;height:40px; line-height:40px; background-color:#000; background-color:rgba(0,0,0,0.8); border-radius: 5px !important; -moz-border-radius: 5px !important;-webkit-border-radius: 5px !important; margin-top:-20px;margin-left:-20px;}
+
+
+		/*** HIDE / SHOW OPENER ONLY ON HOVER **/
+		.reveal_opener.show_on_hover								{	-moz-opacity:0; filter:alpha(opacity=0); opacity:0;  }
+		li:hover .reveal_opener.show_on_hover						{	-moz-opacity:1; filter:alpha(opacity=100); opacity:1;}
+
+
+		.tofullwidth .reveal_wrapper								{	background:#fff; }
+
+
+		.tofullwidth  .reveal_wrapper .table						{	display:table;}
+		.tofullwidth  .reveal_wrapper .table-cell					{	display:table-cell; vertical-align:top; }
+		.tofullwidth  .reveal_wrapper .table-cell.onethird			{	width:33%;}
+
+
+		.tofullwidth  .reveal_wrapper .table-cell.pl20				{	padding-left:20px;}
+
+		@media only screen and (max-width: 480px) {
+			.tofullwidth  .reveal_wrapper .table-cell				{	display:table-row;}
+		}
+
+		/******************* REVEAL ACTIONS ***/
+
+
+		.reveal_opener .openme										{	display:block;}
+		.reveal_opener .closeme										{	display:none;}
+
+
+		.reveal_container.revactive .reveal_wrapper					{	}
+		.revactive .showbiz-title.go-to-top							{	position:absolute;top:20px; margin-top:0px; z-index:5; left:20px;}
+
+		.revactive.reveal_opener .openme							{	display:none;}
+		.revactive.reveal_opener .closeme							{	display:block;}
+		.revactive.reveal_opener.sb-controll-button.sb-centered		{	left:auto; top:10px; right:10px !important; margin:0;}
+
+
+
+

@@ -1,0 +1,579 @@
+/************************************************************************************************************************/
+/* Font Color */
+/************************************************************************************************************************/
+body,
+p,
+.advert-ul-one li,
+.btn-footer {
+  color: #8495a5;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.blog-slider-list h1 a,
+.blog-slider-list h2 a,
+.blog-slider-list h3 a,
+.blog-slider-list h4 a,
+.blog-slider-list h5 a,
+.blog-slider-list h6 a,
+.sidebar ul li a,
+.sidebar ul li {
+  color: #34495e;
+}
+a:hover,
+a:focus,
+.text-primary,
+.btn-link:hover,
+.btn-link:focus,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .nav > li.active > a,
+.navbar .nav > li.active > a:hover,
+.navbar .nav > li.active > a:focus,
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus,
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:focus,
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav > li ul li a:focus,
+.navbar .nav > li.dropdown ul li a:focus,
+.navbar .nav li.dropdown .dropdown-menu li a:hover,
+.navbar .nav li.dropdown .dropdown-menu li a:focus,
+.form-group.focus .input-group-btn .btn,
+.navbar-form.focus .input-group-btn .btn,
+.form-group.focus .input-group-btn:first-child .btn,
+.navbar-form.focus .input-group-btn:first-child .btn,
+.checkbox.checked,
+.radio.checked,
+.checkbox.checked .second-icon,
+.radio.checked .second-icon,
+.checkbox.primary.checked,
+.radio.primary.checked,
+.checkbox.primary.checked .icons,
+.radio.primary.checked .icons,
+.ui-spinner.focus input,
+.active .bottom-menu a,
+.bottom-menu a:hover,
+.bottom-menu a:focus,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.iconbar > ul > li.active > a,
+.iconbar > ul > li > a:hover,
+.iconbar > ul > li > a:focus,
+.has-switch span.switch-left,
+.mso-icon:hover h1,
+.mso-icon:hover h2,
+.mso-icon:hover h3,
+.mso-icon:hover h4,
+.mso-icon:hover h5,
+.mso-icon:hover h6,
+.mso-icon-two:hover h1,
+.mso-icon-two:hover h2,
+.mso-icon-two:hover h3,
+.mso-icon-two:hover h4,
+.mso-icon-two:hover h5,
+.mso-icon-two:hover h6,
+.mso-icon-three:hover h1,
+.mso-icon-three:hover h2,
+.mso-icon-three:hover h3,
+.mso-icon-three:hover h4,
+.mso-icon-three:hover h5,
+.mso-icon-three:hover h6,
+.mso-icon-four:hover h1,
+.mso-icon-four:hover h2,
+.mso-icon-four:hover h3,
+.mso-icon-four:hover h4,
+.mso-icon-four:hover h5,
+.mso-icon-four:hover h6,
+.mso-icon-five:hover h1,
+.mso-icon-five:hover h2,
+.mso-icon-five:hover h3,
+.mso-icon-five:hover h4,
+.mso-icon-five:hover h5,
+.mso-icon-five:hover h6,
+.mso-icon-six:hover h1,
+.mso-icon-six:hover h2,
+.mso-icon-six:hover h3,
+.mso-icon-six:hover h4,
+.mso-icon-six:hover h5,
+.mso-icon-six:hover h6,
+.mso-icon-seven:hover h1,
+.mso-icon-seven:hover h2,
+.mso-icon-seven:hover h3,
+.mso-icon-seven:hover h4,
+.mso-icon-seven:hover h5,
+.mso-icon-seven:hover h6,
+.mso-icon-eight:hover h1,
+.mso-icon-eight:hover h2,
+.mso-icon-eight:hover h3,
+.mso-icon-eight:hover h4,
+.mso-icon-eight:hover h5,
+.mso-icon-eight:hover h6,
+.mso-icon-nine:hover h1,
+.mso-icon-nine:hover h2,
+.mso-icon-nine:hover h3,
+.mso-icon-nine:hover h4,
+.mso-icon-nine:hover h5,
+.mso-icon-nine:hover h6,
+.mso-icon-ten:hover h1,
+.mso-icon-ten:hover h2,
+.mso-icon-ten:hover h3,
+.mso-icon-ten:hover h4,
+.mso-icon-ten:hover h5,
+.mso-icon-ten:hover h6,
+.advert-one:hover h1,
+.advert-one:hover h2,
+.advert-one:hover h3,
+.advert-one:hover h4,
+.advert-one:hover h5,
+.advert-one:hover h6,
+.advert-two-title:hover h1,
+.advert-two-title:hover h2,
+.advert-two-title:hover h3,
+.advert-two-title:hover h4,
+.advert-two-title:hover h5,
+.advert-two-title:hover h6,
+.blog-slider-list h1 a:hover,
+.blog-slider-list h2 a:hover,
+.blog-slider-list h3 a:hover,
+.blog-slider-list h4 a:hover,
+.blog-slider-list h5 a:hover,
+.blog-slider-list h6 a:hover,
+.sidebar ul li a:hover,
+.sidebar ul li:hover,
+.hero-widget .icon {
+  color: #2be3ce;
+}
+a,
+.btn-link,
+.alert-success a,
+.nav-list-vivid > li > a:hover,
+.nav-list-vivid > li > a:focus,
+.mso-icon-two .hi-icon,
+.mso-icon-two:hover .hi-icon-effect-9b .hi-icon,
+.mso-icon-four .hi-icon,
+.mso-icon-four:hover .hi-icon-effect-9b .hi-icon,
+.mso-icon-six .hi-icon,
+.mso-icon-six:hover .hi-icon-effect-9b .hi-icon,
+.mso-icon-seven .hi-icon,
+.mso-icon-seven:hover .hi-icon-effect-9b .hi-icon {
+  color: #27c9b7;
+}
+.mso-icon .hi-icon,
+.mso-icon:hover .hi-icon-effect-9b .hi-icon,
+.mso-icon-three .hi-icon,
+.mso-icon-three:hover .hi-icon-effect-9b .hi-icon,
+.mso-icon-five .hi-icon,
+.mso-icon-five:hover .hi-icon-effect-9b .hi-icon,
+.mso-icon-eight .hi-icon,
+.mso-icon-eight:hover .hi-icon-effect-9b .hi-icon,
+.mso-icon-ten .hi-icon,
+.mso-icon-ten:hover .hi-icon-effect-9b .hi-icon,
+.advert-ul-one li i,
+.blog-date-circle h5,
+.blog-date-circle p,
+.mso-icon-ten:hover .hi-icon h1,
+.mso-icon-ten:hover .hi-icon h6,
+.latest-tweet-icon,
+.slide-bottom-title h2,
+.breadcrumb-nav li a,
+.big-title h1,
+.cs-style-3 p,
+.footer-two h6,
+.footer-three h6 {
+  color: #ffffff;
+}
+/************************************************************************************************************************/
+/* Background Color */
+/************************************************************************************************************************/
+nav select:focus,
+.progress-bar,
+.dropdown-menu li.active > a,
+.dropdown-menu li.selected > a,
+.dropdown-menu li.active > a.highlighted,
+.dropdown-menu li.selected > a.highlighted,
+.dropdown-inverse li.active > a,
+.dropdown-inverse li.selected > a,
+.mso-icon:hover .hi-icon,
+.mso-icon-three:hover .hi-icon,
+.mso-icon-five:hover .hi-icon,
+.mso-icon-eight:hover .hi-icon,
+.mso-icon-nine:hover .hi-icon,
+.mso-icon-ten:hover .hi-icon,
+.advert-ul-one li i {
+  background: #2be3ce;
+}
+nav select,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.form-group.focus .input-group-btn .btn-default:active,
+.navbar-form.focus .input-group-btn .btn-default:active,
+.form-group.focus .input-group-btn .btn-default.active,
+.navbar-form.focus .input-group-btn .btn-default.active,
+.open .dropdown-toggle.form-group.focus .input-group-btn .btn-default,
+.open .dropdown-toggle.navbar-form.focus .input-group-btn .btn-default,
+.dropdown-menu li.active > a:hover,
+.dropdown-menu li.selected > a:hover,
+.dropdown-menu li.active > a.highlighted:hover,
+.dropdown-menu li.selected > a.highlighted:hover,
+.dropdown-menu li.active > a:focus,
+.dropdown-menu li.selected > a:focus,
+.dropdown-menu li.active > a.highlighted:focus,
+.dropdown-menu li.selected > a.highlighted:focus {
+  background: #27c9b7;
+}
+.navigation-menu,
+.hero-widget {
+  background-color: #ffffff;
+}
+.navbar .nav ul li,
+.dropdown-menu {
+  background-color: #f3f4f5;
+}
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.form-group.focus .input-group-addon,
+.navbar-form.focus .input-group-addon,
+.form-group.focus .input-group-btn .btn-default,
+.navbar-form.focus .input-group-btn .btn-default,
+.form-group.focus .input-group-btn .btn-default.disabled,
+.navbar-form.focus .input-group-btn .btn-default.disabled,
+.form-group.focus .input-group-btn .btn-default[disabled],
+.navbar-form.focus .input-group-btn .btn-default[disabled],
+fieldset[disabled] .form-group.focus .input-group-btn .btn-default,
+fieldset[disabled] .navbar-form.focus .input-group-btn .btn-default,
+.form-group.focus .input-group-btn .btn-default.disabled:hover,
+.navbar-form.focus .input-group-btn .btn-default.disabled:hover,
+.form-group.focus .input-group-btn .btn-default[disabled]:hover,
+.navbar-form.focus .input-group-btn .btn-default[disabled]:hover,
+fieldset[disabled] .form-group.focus .input-group-btn .btn-default:hover,
+fieldset[disabled] .navbar-form.focus .input-group-btn .btn-default:hover,
+.form-group.focus .input-group-btn .btn-default.disabled:focus,
+.navbar-form.focus .input-group-btn .btn-default.disabled:focus,
+.form-group.focus .input-group-btn .btn-default[disabled]:focus,
+.navbar-form.focus .input-group-btn .btn-default[disabled]:focus,
+fieldset[disabled] .form-group.focus .input-group-btn .btn-default:focus,
+fieldset[disabled] .navbar-form.focus .input-group-btn .btn-default:focus,
+.form-group.focus .input-group-btn .btn-default.disabled:active,
+.navbar-form.focus .input-group-btn .btn-default.disabled:active,
+.form-group.focus .input-group-btn .btn-default[disabled]:active,
+.navbar-form.focus .input-group-btn .btn-default[disabled]:active,
+fieldset[disabled] .form-group.focus .input-group-btn .btn-default:active,
+fieldset[disabled] .navbar-form.focus .input-group-btn .btn-default:active,
+.form-group.focus .input-group-btn .btn-default.disabled.active,
+.navbar-form.focus .input-group-btn .btn-default.disabled.active,
+.form-group.focus .input-group-btn .btn-default[disabled].active,
+.navbar-form.focus .input-group-btn .btn-default[disabled].active,
+fieldset[disabled] .form-group.focus .input-group-btn .btn-default.active,
+fieldset[disabled] .navbar-form.focus .input-group-btn .btn-default.active,
+.tagsinput-add:hover,
+.tagsinput-primary .tag,
+.ui-slider-range,
+.ui-spinner.focus .ui-spinner-button,
+.ui-datepicker .ui-datepicker-header,
+.ui-datepicker .ui-state-active,
+.pagination ul li.active > a,
+.pagination ul li.active > span,
+.pagination ul li.active.previous > a,
+.pagination ul li.active.next > a,
+.pagination ul li.active.previous > span,
+.pagination ul li.active.next > span,
+.pagination ul li.active.previous > a:hover,
+.pagination ul li.active.next > a:hover,
+.pagination ul li.active.previous > span:hover,
+.pagination ul li.active.next > span:hover,
+.pagination ul li.active.previous > a:focus,
+.pagination ul li.active.next > a:focus,
+.pagination ul li.active.previous > span:focus,
+.pagination ul li.active.next > span:focus,
+.pagination ul li > a:hover,
+.pagination ul li > span:hover,
+.pagination ul li > a:focus,
+.pagination ul li > span:focus,
+.pagination ul li > a:active,
+.pagination ul li > span:active,
+.pagination-minimal > ul > li > a:hover,
+.pagination-minimal > ul > li > span:hover,
+.pagination-minimal > ul > li > a:focus,
+.pagination-minimal > ul > li > span:focus,
+.label-primary,
+.badge-primary,
+.nav-pills > li > a,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.nav-list-vivid > li.active > a,
+.nav-list-vivid > li.active > a:hover,
+.nav-list-vivid > li.active > a:focus,
+.has-switch > div.switch-on label,
+.panel-primary > .panel-heading {
+  background-color: #2be3ce;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.form-group.focus .input-group-btn .btn-default:hover,
+.navbar-form.focus .input-group-btn .btn-default:hover,
+.form-group.focus .input-group-btn .btn-default:focus,
+.navbar-form.focus .input-group-btn .btn-default:focus,
+.form-group.focus .input-group-btn .btn-default:active,
+.navbar-form.focus .input-group-btn .btn-default:active,
+.form-group.focus .input-group-btn .btn-default.active,
+.navbar-form.focus .input-group-btn .btn-default.active,
+.open .dropdown-toggle.form-group.focus .input-group-btn .btn-default,
+.open .dropdown-toggle.navbar-form.focus .input-group-btn .btn-default,
+.ui-slider-handle:hover,
+.ui-slider-handle:focus,
+.ui-datepicker .ui-datepicker-prev:hover,
+.ui-datepicker .ui-datepicker-next:hover,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus,
+.latest-tweet-icon {
+  background-color: #2ef0d9;
+}
+.tagsinput .tag:hover,
+.ui-slider-handle,
+.ui-slider-handle:active,
+.ui-spinner.focus .ui-spinner-button:hover,
+.ui-datepicker .ui-datepicker-prev:active,
+.ui-datepicker .ui-datepicker-next:active,
+.pagination-minimal > ul > li > a:active,
+.pagination-minimal > ul > li > span:active,
+.label-primary[href]:hover,
+.label-primary[href]:focus,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li > a:active,
+.mso-icon .hi-icon,
+.mso-icon-three .hi-icon,
+.mso-icon-five .hi-icon,
+.mso-icon-eight .hi-icon,
+.mso-icon-ten .hi-icon,
+.blog-date-circle,
+.grid figcaption {
+  background-color: #27c9b7;
+}
+.btn-inverse,
+.btn-inverse.disabled,
+.btn-inverse[disabled],
+fieldset[disabled] .btn-inverse,
+.btn-inverse.disabled:hover,
+.btn-inverse[disabled]:hover,
+fieldset[disabled] .btn-inverse:hover,
+.btn-inverse.disabled:focus,
+.btn-inverse[disabled]:focus,
+fieldset[disabled] .btn-inverse:focus,
+.btn-inverse.disabled:active,
+.btn-inverse[disabled]:active,
+fieldset[disabled] .btn-inverse:active,
+.btn-inverse.disabled.active,
+.btn-inverse[disabled].active,
+fieldset[disabled] .btn-inverse.active,
+.navbar .nav li.dropdown .dropdown-menu,
+.pager,
+.pagination-inverse ul,
+.tooltip-inner,
+.dropdown-inverse,
+.dialog.dialog-inverse,
+.has-switch span.switch-left {
+  background-color: #34495e;
+}
+.bottom-menu-inverse {
+  background-color: #2c3d4f;
+}
+.navbar-inverse {
+  background: #34495e;
+}
+.module-background-one,
+.blog-slider-two,
+.well {
+  background-color: #f8fafc;
+}
+.module-background-two,
+.modul-price-one {
+  background-color: #f3f5f7;
+}
+.module-background-three,
+.portlio-list,
+.blog-slider,
+.blog-info {
+  background-color: #ebedef;
+}
+.module-background-four {
+  background-color: #34495e;
+}
+.module-background-five {
+  background-color: #27c9b7;
+}
+/************************************************************************************************************************/
+/* Border Color */
+/************************************************************************************************************************/
+/* Border */
+.btn-footer,
+.footer-two ul li img,
+.footer-two h6,
+.footer-three ul li img,
+.footer-three h6 {
+  border-color: #8495a5;
+}
+.ui-datepicker:before {
+  border-color: transparent transparent #2be3ce;
+}
+.navbar.navbar-inverse .navbar-form .form-control:focus,
+.navbar .navbar-form .form-control:focus,
+.form-group.focus .form-control,
+.form-control:focus,
+.form-control.flat:focus,
+.form-group.focus .input-group-addon,
+.navbar-form.focus .input-group-addon,
+.form-group.focus .input-group-btn .btn,
+.navbar-form.focus .input-group-btn .btn,
+.form-group.focus .input-group-btn:first-child .btn,
+.navbar-form.focus .input-group-btn:first-child .btn,
+.tagsinput-primary,
+.ui-spinner.focus input,
+.ui-datepicker,
+.pagination-minimal > ul > li > a:hover,
+.pagination-minimal > ul > li > span:hover,
+.pagination-minimal > ul > li > a:focus,
+.pagination-minimal > ul > li > span:focus,
+.dropdown-menu.typeahead,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.switch-square label,
+.footer-two ul li:hover img,
+.footer-three ul li:hover img {
+  border-color: #2be3ce;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.form-group.focus .input-group-btn .btn-default:hover,
+.navbar-form.focus .input-group-btn .btn-default:hover,
+.form-group.focus .input-group-btn .btn-default:focus,
+.navbar-form.focus .input-group-btn .btn-default:focus,
+.form-group.focus .input-group-btn .btn-default:active,
+.navbar-form.focus .input-group-btn .btn-default:active,
+.form-group.focus .input-group-btn .btn-default.active,
+.navbar-form.focus .input-group-btn .btn-default.active,
+.open .dropdown-toggle.form-group.focus .input-group-btn .btn-default,
+.open .dropdown-toggle.navbar-form.focus .input-group-btn .btn-default {
+  border-color: #2ef0d9;
+}
+.pagination-minimal > ul > li > a:active,
+.pagination-minimal > ul > li > span:active {
+  border-color: #27c9b7;
+}
+.bottom-shape-right > i {
+  border-right: 0.8em solid #eeeeee;
+  border-top: 0.8em solid #eeeeee;
+}
+.modul-bb-bold {
+  border-color: #f1f1f1;
+}
+.modul-bo-one,
+.modul-bt-one,
+.advert-list-bottom-shape,
+.mso-icon-nine small,
+.mso-icon-nine,
+.modul-price-one ul li,
+.modul-price-one,
+.latest-tweet-icon,
+.blog-info,
+.author-image {
+  border-color: #e4e6e8;
+}
+.modul-bo-two,
+.modul-bt-two {
+  border-color: #f8fafc;
+}
+.modul-bo-three,
+.modul-bt-three,
+.comment-list ul li {
+  border-color: #f3f5f7;
+}
+.modul-bo-four,
+.modul-bt-four,
+.sidebar-categories,
+.sidebar-categories-two,
+.comment-img,
+.hero-widget,
+.well {
+  border-color: #ebedef;
+}
+.modul-bo-five,
+.modul-bt-five {
+  border-color: #f1f1f1;
+}
+/* Border Top */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown > .dropdown-toggle:focus .caret,
+.nav-tabs > li .dropdown-toggle:hover .caret,
+.nav-tabs > li .dropdown-toggle:focus .caret {
+  border-top-color: #2be3ce;
+}
+/* Border Right */
+.tooltip.right .tooltip-arrow {
+  border-right-color: #34495e;
+}
+/* Border Bottom */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown > .dropdown-toggle:hover .caret,
+.navbar .nav li.dropdown > .dropdown-toggle:focus .caret,
+.nav-tabs > li .dropdown-toggle:hover .caret,
+.nav-tabs > li .dropdown-toggle:focus .caret {
+  border-bottom-color: #2be3ce;
+}
+.pagination > .btn:first-child.btn-primary,
+.pagination > .btn + ul + .btn.btn-primary {
+  border-bottom-color: #2ef0d9;
+}
+.navbar-inverse .nav > li.active > a,
+.navbar-inverse .nav > li.active > a:hover,
+.navbar-inverse .nav > li.active > a:focus,
+.navbar.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.ui-spinner.focus .ui-spinner-up {
+  border-bottom-color: #27c9b7;
+}
+/* Border Left */
+.well {
+  border-left-color: #2be3ce;
+}
+.form-group.focus .input-group-btn > .btn-default + .btn-default,
+.navbar-form.focus .input-group-btn > .btn-default + .btn-default,
+.nav-pills > li > a {
+  border-left-color: #27c9b7;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #34495e;
+}
