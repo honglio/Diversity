@@ -442,16 +442,16 @@ pre,
   background: url(../img/background/b2.jpg) 50% 0 no-repeat fixed;
 }
 .parallax-three {
-  background: url(../img/background/b5.jpg) 50% 0 no-repeat fixed;
+  background: url(../img/background/b3.jpg) 50% 0 no-repeat fixed;
 }
 .parallax-four {
   background: url(../img/background/b4.jpg) 50% 0 no-repeat fixed;
 }
 .parallax-five {
-  background: url(../img/background/b6.jpg) 50% 0 no-repeat fixed;
+  background: url(../img/background/b5.jpg) 50% 0 no-repeat fixed;
 }
 .parallax-six {
-  background: url(../img/background/b3.jpg) 50% 0 no-repeat fixed;
+  background: url(../img/background/b6.jpg) 50% 0 no-repeat fixed;
 }
 /* CSS Switcher */
 .demo_changer {
@@ -1523,6 +1523,9 @@ section.blog .comments-list .comment .comment-content {
 .latest-tweet-icon {
   padding: 30px;
   border-radius: 50%;
+}
+.latest-tweet-icon:hover,
+.latest-tweet-icon:focus {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
 }
 /************************************************************************************************************************/
