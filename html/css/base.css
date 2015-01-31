@@ -722,16 +722,11 @@ span a:active {
   position: absolute;
   width: 60px;
   height: 60px;
-  margin-top: -30px;
+  margin-top: 30px;
   margin-left: 30px;
   border-radius: 50%;
   opacity: 0.8;
   z-index: 1;
-  -webkit-transform: translateY(60px);
-  -ms-transform: translateY(60px);
-  transform: translateY(60px);
-  transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-  transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 .blog-date-circle h5 {
   text-align: center;
@@ -1562,16 +1557,21 @@ section.blog .comments-list .comment .comment-content {
   margin-bottom: 30px;
 }
 .portlio-list h6 {
+  z-index: 2000;
   margin-top: 30px;
   margin-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
 }
 .portlio-list p {
+  z-index: 2000;
   font-style: italic;
   padding-right: 30px;
   padding-left: 30px;
   margin-bottom: 30px;
+}
+.portlio-list .grid {
+  z-index: 0;
 }
 .portlio-list-img {
   width: 100%;
@@ -2228,12 +2228,10 @@ section.blog .comments-list .comment .comment-content {
 .cs-style-1 figcaption {
   height: 130px;
   width: 100%;
-  opacity: 0;
+  visibility: hidden;
   text-align: center;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: -webkit-transform 0.3s, opacity 0s;
-  transition: transform 0.3s, opacity 0s;
 }
 .cs-style-1 figcaption h3 {
   margin-top: 60px;
@@ -2246,10 +2244,21 @@ section.blog .comments-list .comment .comment-content {
 }
 .no-touch .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption {
-  opacity: 1;
+  visibility: visible;
   -webkit-transform: translate(0, -130px);
   -ms-transform: translate(0, -130px);
   transform: translate(0, -130px);
+  transition: -webkit-transform 0.3s, opacity 0s;
+  transition: transform 0.3s, opacity 0s;
+}
+.no-touch .cs-style-1 figure:hover .blog-date-circle,
+.cs-style-1 figure.cs-hover .blog-date-circle {
+  opacity: 0;
+  -webkit-transform: translateY(-90px);
+  -ms-transform: translateY(-90px);
+  transform: translateY(-90px);
+  transition: -webkit-transform 0.4s, opacity 0.3s;
+  transition: transform 0.4s, opacity 0.3s;
 }
 /* Caption Style 2 */
 .cs-style-2 figure img {
